@@ -3,13 +3,21 @@
 ### 
 for window
 Step: 1 - git clone https://github.com/deshxpm/fastAPI_crudApp.git
+
 Step: 2 - pip install virtualenv
+
 Step: 3 - virtualenv venv
+
 Step: 4 - venv\Scripts\activate.bat
+
 Step: 5 - go to the fastAPI_crudApp directory location
+
 Step: 6 - pip install -r requirements.txt (install all library & dependencies)
+
 Step: 7 - uvicorn main:app --reload
+
 OUTPUT: 
+
 ←[32mINFO←[0m:     Uvicorn running on ←[1mhttp://127.0.0.1:8000←[0m (Press CTRL+C to quit)
 ←[32mINFO←[0m:     Started reloader process [←[36m←[1m3560←[0m] using ←[36m←[1mStatReload←[0m
 ←[32mINFO←[0m:     Started server process [←[36m1408←[0m]
