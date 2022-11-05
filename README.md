@@ -32,10 +32,15 @@ NOTE: for more help got to docs url: http://127.0.0.1:8000/docs (swagger)
 METHOD  URL                                   description
 
 POST    http://127.0.0.1:8000/address/api/v1/ Create new address
+
 GET     http://127.0.0.1:8000/address/api/v1/ get all address details
+
 GET     http://127.0.0.1:8000/address/api/v1/{id}  get single record of address by id
+
 PUT     http://127.0.0.1:8000/address/api/v1/{id} Update address by id
+
 DELETE  http://127.0.0.1:8000/address/api/v1/{id} Delete address by id
+
 POST    http://127.0.0.1:8000/address/api/v1/ get address record between distance and location coordinates.
 
 
